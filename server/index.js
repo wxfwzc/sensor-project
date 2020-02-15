@@ -1,7 +1,7 @@
-const express =requie("express");
+const express =require("express");
 const app=express();
 app.get("/temp",(req,res)=>{
-	res.send("24");
+	res.send("hello world");
 }
 );
 app.listen(3000,()=>{
